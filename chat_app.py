@@ -14,7 +14,7 @@ if "chat" not in st.session_state:
 if st.button("🧹 Limpiar historial del chat"):
     st.session_state.chat = []
 
-st.title("🧠 Clasificador de mensajes de chat")
+st.title("Clasificador de mensajes Chat Videojuegos")
 
 mensaje = st.text_input("Escribe tu mensaje:")
 
